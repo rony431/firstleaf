@@ -1,0 +1,41 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "API Rest for countries",
+    "line": 2,
+    "id": "api-rest-for-countries",
+    "tags": [],
+    "uri": "api.feature",
+    "elements": [
+      {
+        "id": "api-rest-for-countries;verify-all-countries",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify All countries",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I validate the country endpoint",
+            "result": {
+              "status": "undefined",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I validate wrong url",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

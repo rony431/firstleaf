@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing firstLeaf",
+    "line": 1,
+    "id": "testing-firstleaf",
+    "tags": [],
+    "uri": "demo.feature",
+    "elements": [
+      {
+        "id": "testing-firstleaf;verify-ui-complete-quiz",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify ui complete quiz",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Test on firstleaf login page",
+            "result": {
+              "status": "passed",
+              "duration": 6376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Enter the sweet wine",
+            "result": {
+              "status": "passed",
+              "duration": 1902000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Coffee or tea selection",
+            "result": {
+              "status": "passed",
+              "duration": 1094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Select wine type",
+            "result": {
+              "status": "passed",
+              "duration": 6999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Select how much variation",
+            "result": {
+              "status": "passed",
+              "duration": 984000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Select your wine preferences",
+            "result": {
+              "status": "passed",
+              "duration": 1681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Select wine type",
+            "result": {
+              "status": "passed",
+              "duration": 8015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Select wine taste",
+            "result": {
+              "status": "passed",
+              "duration": 9565000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Select wine flavors",
+            "result": {
+              "status": "passed",
+              "duration": 10079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select number of bottles",
+            "result": {
+              "status": "passed",
+              "duration": 4601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Reveal your quiz results",
+            "result": {
+              "status": "passed",
+              "duration": 7431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Go to complete checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Fill up form",
+            "result": {
+              "status": "passed",
+              "duration": 13814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "validate second step",
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-firstleaf;verify-all-countries-api",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify All countries API",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I validate the country endpoint",
+            "result": {
+              "status": "failed",
+              "duration": 1813000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -765\n    +500\n\n    at Context.eval (https://www.firstleaf.club/__cypress/tests?p=cypress/integration/demo.feature:128:29)\n    at Context.resolveAndRunStepDefinition (https://www.firstleaf.club/__cypress/tests?p=cypress/integration/demo.feature:10528:29)\n    at Context.eval (https://www.firstleaf.club/__cypress/tests?p=cypress/integration/demo.feature:9872:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I validate wrong url",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
